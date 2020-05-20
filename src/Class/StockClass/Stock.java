@@ -34,7 +34,7 @@ Market Cap: $538000000000
  */
 public class Stock {
 
-    String ticketSymbol;
+    String tickerSymbol;
     String companyName;
     int price;
     double percentChange;
@@ -50,16 +50,18 @@ price
 totalShares
      */
 
-    public Stock (String ticketSymbol, String companyName, int price, int totalShares) {
-        this.ticketSymbol = ticketSymbol.toUpperCase();
+    public Stock (String tickerSymbol, String companyName, int price, int totalShares) {
+        this.tickerSymbol = tickerSymbol.toUpperCase();
         this.companyName = companyName;
         this.price = price;
         this.totalShares = totalShares;
+        marketCap = totalShares * price;
     }
+/*
+Methods:
 
-    public long marketCap () {
-        return totalShares * price;
-    }
+marketCap is calculated by multiplying totalShares by price
+ */
 
 /*
 This method will change the price by value (value can be positive or negative).
@@ -82,7 +84,10 @@ Market Cap: $538000000000
  */
 
     public String toString(){
-        return "Ticket Symbol: " + ticketSymbol +"\nCompany: " + companyName +"\nCurrent Price: " + price + "\nMarketCap: " + marketCap;
+        return "Ticker Symbol: " + tickerSymbol +
+                "\nCompany: " + companyName +
+                "\nCurrent Price: $" + price + " " +
+                " ("+percentChange+")\nMarketCap: $" + marketCap;
     }
 
 
