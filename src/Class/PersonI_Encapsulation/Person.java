@@ -70,6 +70,15 @@ public class Person {
         this.lastName = lastName;
     }
 
+    public int getAge () {
+        return age;
+    }
+
+    public void setAge (int age) {
+        this.age = age;
+    }
+
+
     public String toString () {
         return firstName + " | " + lastName + " | " + age;
     }
@@ -82,10 +91,10 @@ public class Person {
  age => -1
      */
 
-    public void NoArgs () {
-        firstName = "undefined";
-        lastName = "undefined";
-        age = -1;
+    public Person () {
+        setFirstName("undefined");
+        setLastName("undefined");
+        setAge(-1);
     }
 
 /*
@@ -95,10 +104,10 @@ public class Person {
  try to use this. keyword
  */
 
-    public void Args (String firstName, String lastName, int age) {
-    this.firstName = firstName;
-    this.lastName = lastName;
-    this.age = age;
+    public Person (String firstName, String lastName, int age) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.age = age;
     }
 
 
