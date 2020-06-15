@@ -10,7 +10,16 @@ removeFirst("aaa")
 returns "aa"
  */
 
+public static String removeFirst(String target) {
 
+    //1:
+    //return target.substring(1);
+
+    //2:
+    return target.replaceFirst(target.substring(0,1),"");
+
+
+}
 
 
 }
