@@ -21,9 +21,9 @@ public class _195MethodsWithString_15_anagram {
      */
 
     public static boolean isAnagram(String word1, String word2 ) {
-    if (word1.length()!=word2.length()) {
-        return false;
-    }
+        if (word1.length() != word2.length()) {
+            return false;
+        }
         //first turn them into array => sort -> compare array equality
         char[] word1Chars = word1.replace(" ", "").toLowerCase().toCharArray();
         char[] word2Chars = word2.replace(" ", "").toLowerCase().toCharArray();
