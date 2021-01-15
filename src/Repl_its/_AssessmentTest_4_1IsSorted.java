@@ -2,7 +2,7 @@ package Repl_its;
 
 import java.util.Arrays;
 
-public class AssessmentTest_4_1IsSorted {
+public class _AssessmentTest_4_1IsSorted {
     /*
     this is a sorted collection (in this case array):
 

@@ -2,7 +2,7 @@ package Repl_its;
 
 import java.util.Scanner;
 
-public class AssessmentTest_5_1PrintVowels {
+public class _AssessmentTest_5_1PrintVowels {
     /*
     Inputs:
 String word;

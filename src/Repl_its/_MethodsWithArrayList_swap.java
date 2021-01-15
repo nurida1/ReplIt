@@ -2,7 +2,7 @@ package Repl_its;
 
 import java.util.ArrayList;
 
-public class MethodsWithArrayList_swap {
+public class _MethodsWithArrayList_swap {
   /*
   In this assignment you will swap a position in an array list with another.
 

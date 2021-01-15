@@ -5,7 +5,7 @@ import java.util.Arrays;
 
 import java.util.Collections;
 
-public class MethodsWithArrayList_removeAll {
+public class _MethodsWithArrayList_removeAll {
 /*
 Create a static method that:
 is called removeAll

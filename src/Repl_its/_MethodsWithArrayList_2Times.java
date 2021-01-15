@@ -3,7 +3,7 @@ package Repl_its;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class MethodsWithArrayList_2Times {
+public class _MethodsWithArrayList_2Times {
     /*
     Create a method that:
 

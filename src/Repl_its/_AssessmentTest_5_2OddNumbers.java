@@ -3,7 +3,7 @@ package Repl_its;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class AssessmentTest_5_2OddNumbers {
+public class _AssessmentTest_5_2OddNumbers {
     /*
     You are given two inputs:
 int num1;

@@ -3,7 +3,7 @@ package Repl_its;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class MethodsWithArrayList_remove_instances {
+public class _MethodsWithArrayList_remove_instances {
     /*
 This method gets an arraylist of Integers and a number(Integer).it returns an arraylist.
 

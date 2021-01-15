@@ -2,7 +2,7 @@ package Repl_its;
 
 import java.util.ArrayList;
 
-public class MethodsWithArrayLists_deliveryCalc {
+public class _MethodsWithArrayLists_deliveryCalc {
     /*
     A pizza delivery men has a scooter an a lot of deliveries to make, he will have to refuel a few times.
 
